@@ -9,8 +9,8 @@
 
 	<h1 style='font-size: 80px;'>Vice Versa</h1>
 	<br><br>
-	<form>
-		<textarea cols="100" rows="20" name="user-text"></textarea>
+	<form action="{% url 'reverse' %}">
+		<textarea cols="100" rows="20" name="usertext"></textarea>
 		<br><br>
 		<input type="submit" value="Reverse">
 	</form>
